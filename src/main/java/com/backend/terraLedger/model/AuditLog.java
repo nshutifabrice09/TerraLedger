@@ -1,2 +1,4 @@
-package com.backend.terraLedger.model;public class AuditLog {
+package com.backend.terraLedger.model;
+
+public class AuditLog {
 }

@@ -1,4 +1,4 @@
 package com.backend.terraLedger.model;
 
-public class Dispute {
+public class KYU {
 }

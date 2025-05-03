@@ -1,2 +1,4 @@
-package com.backend.terraLedger.model;public class Notification {
+package com.backend.terraLedger.model;
+
+public class Notification {
 }
