@@ -1,4 +1,2 @@
-package com.backend.terraLedger.model;
-
-public class Dispute {
+package com.backend.terraLedger.model;public class Dispute {
 }
