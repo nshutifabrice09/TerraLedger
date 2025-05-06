@@ -1,2 +1,22 @@
-package com.backend.terraLedger.exception;public class KYCNotFoundAdvice {
+package com.backend.terraLedger.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@ControllerAdvice
+public class KYCNotFoundAdvice {
+    @ResponseBody
+    @ExceptionHandler(KYCNotFoundException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public Map<String, String> exceptionHandler(KYCNotFoundException exception){
+        Map<String,String> errorMap=new HashMap<>();
+        errorMap.put("errorMessage", exception.getMessage());
+        return errorMap;
+    }
 }
