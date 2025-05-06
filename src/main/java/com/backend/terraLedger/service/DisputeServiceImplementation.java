@@ -26,4 +26,9 @@ public class DisputeServiceImplementation implements DisputeService{
     public Dispute updateDispute(Long id, Dispute dispute) {
         return null;
     }
+
+    @Override
+    public void deleteDisputeById(Long id) {
+        
+    }
 }

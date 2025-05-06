@@ -9,4 +9,5 @@ public interface DisputeService {
     Dispute getDisputeById(Long id);
     Dispute saveDispute(Dispute dispute);
     Dispute updateDispute(Long id, Dispute dispute);
+    void deleteDisputeById(Long id);
 }
