@@ -1,2 +1,13 @@
-package com.backend.terraLedger.service;public interface KYCService {
+package com.backend.terraLedger.service;
+
+import com.backend.terraLedger.model.KYC;
+
+import java.util.List;
+
+public interface KYCService {
+    List<KYC> getAllKycs();
+    KYC getKycById(Long id);
+    KYC saveKyc(KYC kyc);
+    KYC updateKyc(Long id, KYC kyc);
+    void deleteKycById(Long id);
 }
