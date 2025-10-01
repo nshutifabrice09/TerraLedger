@@ -3,12 +3,14 @@ package com.backend.terraLedger.model;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
 @Entity
 @Table(name = "users")
 @Builder
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
