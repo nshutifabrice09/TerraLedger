@@ -18,9 +18,10 @@ public class AuditLogServiceImplementation implements AuditLogService{
     }
 
     @Override
-    public AuditLog saveAuditLog(AuditLog auditLog) {
+    public AuditLog saveAuditLog(AuditLog auditLog, Long actorId) {
         return null;
     }
+
 
     @Override
     public AuditLog updateAuditLog(Long id, AuditLog auditLog) {

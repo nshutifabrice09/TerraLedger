@@ -22,6 +22,7 @@ public class Dispute {
     private Long id;
 
     @ManyToOne
+    @JoinColumn(name = "landParcel_id")
     private LandParcel landParcel;
 
 

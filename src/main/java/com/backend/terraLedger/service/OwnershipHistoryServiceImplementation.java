@@ -18,9 +18,10 @@ public class OwnershipHistoryServiceImplementation implements OwnershipHistorySe
     }
 
     @Override
-    public OwnershipHistory saveOwnershipHistory(OwnershipHistory ownershipHistory) {
+    public OwnershipHistory saveOwnershipHistory(OwnershipHistory ownershipHistory, Long landParcelId, Long fromUserId, Long toUserId) {
         return null;
     }
+
 
     @Override
     public OwnershipHistory updateOwnershipHistory(Long id, OwnershipHistory ownershipHistory) {

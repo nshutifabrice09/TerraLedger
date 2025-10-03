@@ -1,35 +1,34 @@
 package com.backend.terraLedger.service;
 
-import com.backend.terraLedger.model.KYC;
+import com.backend.terraLedger.model.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class KYCServiceImplementation implements KYCService{
+public class UserServiceImplementation implements UserService{
     @Override
-    public List<KYC> getAllKycs() {
+    public List<User> getUsers() {
         return null;
     }
 
     @Override
-    public KYC getKycById(Long id) {
+    public User getUser(Long id) {
         return null;
     }
 
     @Override
-    public KYC saveKyc(KYC kyc, Long userId) {
-        return null;
-    }
-
-
-    @Override
-    public KYC updateKyc(Long id, KYC kyc) {
+    public User saveUser(User user) {
         return null;
     }
 
     @Override
-    public void deleteKycById(Long id) {
+    public User updateUser(Long id, User user) {
+        return null;
+    }
+
+    @Override
+    public void deleteUser(Long id) {
 
     }
 }

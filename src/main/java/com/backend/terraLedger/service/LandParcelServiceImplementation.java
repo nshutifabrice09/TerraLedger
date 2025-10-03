@@ -18,9 +18,10 @@ public class LandParcelServiceImplementation implements LandParcelService{
     }
 
     @Override
-    public LandParcel saveLandParcel(LandParcel landParcel) {
+    public LandParcel saveLandParcel(LandParcel landParcel, Long ownerId) {
         return null;
     }
+
 
     @Override
     public LandParcel updateLandParcel(Long id, LandParcel landParcel) {

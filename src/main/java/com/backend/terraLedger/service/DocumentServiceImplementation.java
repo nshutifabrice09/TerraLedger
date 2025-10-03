@@ -18,9 +18,10 @@ public class DocumentServiceImplementation implements DocumentService{
     }
 
     @Override
-    public Document saveDocument(Document document) {
+    public Document saveDocument(Document document, Long uploadedById) {
         return null;
     }
+
 
     @Override
     public Document updateDocument(Long id, Document document) {

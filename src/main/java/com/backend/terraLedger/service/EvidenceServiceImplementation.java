@@ -18,9 +18,10 @@ public class EvidenceServiceImplementation implements EvidenceService{
     }
 
     @Override
-    public Evidence saveEvidence(Evidence evidence) {
+    public Evidence saveEvidence(Evidence evidence, Long disputeId, Long uploadedById) {
         return null;
     }
+
 
     @Override
     public Evidence updateEvidence(Long id, Evidence evidence) {

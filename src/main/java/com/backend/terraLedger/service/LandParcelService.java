@@ -7,7 +7,7 @@ import java.util.List;
 public interface LandParcelService {
     List<LandParcel> getAllLandParcels();
     LandParcel getLandParcelById(Long id);
-    LandParcel saveLandParcel(LandParcel landParcel);
+    LandParcel saveLandParcel(LandParcel landParcel, Long ownerId);
     LandParcel updateLandParcel(Long id, LandParcel landParcel);
     void deleteLandParcelById(Long id);
 }

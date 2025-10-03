@@ -7,7 +7,7 @@ import java.util.List;
 public interface DisputeService {
     List<Dispute> getAllDisputes();
     Dispute getDisputeById(Long id);
-    Dispute saveDispute(Dispute dispute);
+    Dispute saveDispute(Dispute dispute, Long landParcelId);
     Dispute updateDispute(Long id, Dispute dispute);
     void deleteDisputeById(Long id);
 }

@@ -18,7 +18,7 @@ public class DisputeServiceImplementation implements DisputeService{
     }
 
     @Override
-    public Dispute saveDispute(Dispute dispute) {
+    public Dispute saveDispute(Dispute dispute, Long landParcelId) {
         return null;
     }
 
